@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#123b46">
+  <meta name="description" content="Medical Study AI with BR — BHMS learning resources and an educational medicine reference library.">
+  <title>Medical Study AI with BR</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Medical Study AI with BR home">
+      <span class="brand-mark">BR</span>
+      <span><strong>Medical Study AI</strong><small>Study smarter with BR</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Open navigation">☰</button>
+    <nav id="mainNav" aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#bhms">BHMS</a><a href="#allopathy">Allopathy</a>
+      <a href="#resources">Resources</a><a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <p class="eyebrow">YOUR MEDICAL LEARNING LIBRARY</p>
+      <h1>Learn Medicine.<br><span>Understand Better.</span></h1>
+      <p>BHMS learning resources and Allopathy medicine references, with space for English notes, Gujarati explanations and pronunciation support.</p>
+      <div class="hero-actions"><a class="button primary" href="#bhms">Explore BHMS</a><a class="button secondary" href="#allopathy">Explore Allopathy</a></div>
+    </section>
+
+    <section class="search-panel" aria-label="Website search">
+      <label for="globalSearch">Search the study library</label>
+      <div class="search-row"><input id="globalSearch" type="search" placeholder="Search subjects, topics, resources or medicines"><button class="button primary" id="searchButton">Search</button></div>
+      <div id="searchResults" class="result-list" aria-live="polite"></div>
+    </section>
+
+    <section class="section" id="bhms">
+      <div class="section-heading"><p class="eyebrow">HOMOEOPATHIC MEDICINE</p><h2>BHMS Study Centre</h2><p>Browse the four BHMS years and the subjects currently listed in this starter catalogue.</p></div>
+      <div class="year-grid" id="bhmsYears"><p class="muted">Loading BHMS subjects…</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><h3>Topic-wise Notes</h3><p>Build English notes with line-by-line Gujarati explanations.</p></article>
+        <article class="feature-card"><h3>Pronunciation</h3><p>Add Gujarati-script pronunciation for difficult English terms.</p></article>
+        <article class="feature-card"><h3>Previous Papers</h3><p>Organize papers by university and year after checking each document.</p></article>
+        <article class="feature-card"><h3>Practicals & Diagrams</h3><p>Keep practical records and diagrams in separate folders.</p></article>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="allopathy">
+      <div class="section-heading"><p class="eyebrow">MODERN MEDICINE REFERENCE</p><h2>Allopathy Medicine Library</h2><p>Search the starter medicine dataset. This is an educational index, not a prescribing tool.</p></div>
+      <div class="search-panel inner-panel">
+        <label for="medicineSearch">Find a medicine</label>
+        <input id="medicineSearch" type="search" placeholder="Generic name, brand, composition or category">
+        <div id="medicineResults" class="result-list" aria-live="polite"></div>
+      </div>
+      <div class="feature-card scanner-card">
+        <h3>Medicine image preview</h3>
+        <p>Select a photo to preview it. Automatic medicine identification is not enabled in this version.</p>
+        <label class="file-label" for="medicineImage">Choose image</label>
+        <input id="medicineImage" type="file" accept="image/*">
+        <div id="imagePreview"></div>
+      </div>
+      <p class="notice">Medicine information may be incomplete or change over time. Confirm current product information with official prescribing information and a qualified healthcare professional. Do not use this site alone to diagnose, prescribe, or change treatment.</p>
+    </section>
+
+    <section class="section" id="resources">
+      <div class="section-heading"><p class="eyebrow">STUDY MATERIAL</p><h2>Resource Library</h2><p>Open source links or preview supported PDF links inside the page.</p></div>
+      <div class="filter-row"><label for="resourceType">Filter by type</label><select id="resourceType"><option value="all">All resources</option><option value="syllabus">Syllabus</option><option value="question-paper">Question papers</option><option value="notes">Notes / study material</option><option value="reference">Reference</option><option value="allopathy">Allopathy</option></select></div>
+      <div id="resourceList" class="result-list"><p class="muted">Loading resources…</p></div>
+      <section id="pdfViewer" class="pdf-viewer" hidden aria-label="PDF preview">
+        <div class="pdf-toolbar"><strong id="pdfTitle">PDF preview</strong><div><a id="pdfNewTab" href="#" target="_blank" rel="noopener noreferrer">Open in new tab</a> <button id="closePdf" class="button secondary" type="button">Close</button></div></div>
+        <iframe id="pdfFrame" title="PDF document preview" loading="lazy"></iframe>
+      </section>
+    </section>
+
+    <section class="section section-alt" id="about">
+      <div class="section-heading"><p class="eyebrow">ABOUT THIS PROJECT</p><h2>Medical Study AI with BR</h2><p>A student-focused library intended to make learning resources easier to find and understand.</p></div>
+      <div class="notice"><strong>Project status:</strong> This is a working starter website and folder structure. It does not yet contain a complete verified BHMS syllabus, all HNGU question papers with solutions, a comprehensive drug database, or AI image recognition. Content must be added and checked before those features can be called complete.</div>
+    </section>
+  </main>
+  <footer class="site-footer"><strong>Medical Study AI with BR</strong><p>Educational use only · Verify sources before clinical use.</p></footer>
+</body>
+</html>

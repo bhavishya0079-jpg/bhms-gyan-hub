@@ -1,0 +1,177 @@
+[
+  {
+    "year": "First BHMS",
+    "subjects": [
+      {
+        "name": "Human Anatomy",
+        "category": "Basic Sciences",
+        "description": "Study of the structure of the human body; verify exact current university syllabus."
+      },
+      {
+        "name": "Human Physiology and Biochemistry",
+        "category": "Basic Sciences",
+        "description": "Normal functions of the human body and biochemical foundations."
+      },
+      {
+        "name": "Homoeopathic Pharmacy",
+        "category": "BHMS",
+        "description": "Principles and preparation of homoeopathic medicines."
+      },
+      {
+        "name": "Homoeopathic Materia Medica",
+        "category": "BHMS",
+        "description": "Study of homoeopathic drug profiles."
+      },
+      {
+        "name": "Organon of Medicine and Homoeopathic Philosophy",
+        "category": "BHMS",
+        "description": "Foundations of homoeopathic philosophy."
+      },
+      {
+        "name": "Homoeopathic Repertory",
+        "category": "BHMS",
+        "description": "Introduction to repertory and case taking."
+      },
+      {
+        "name": "Yoga",
+        "category": "Additional",
+        "description": "Yoga education where included in the applicable curriculum."
+      }
+    ]
+  },
+  {
+    "year": "Second BHMS",
+    "subjects": [
+      {
+        "name": "Pathology and Microbiology",
+        "category": "Basic Sciences",
+        "description": "Disease processes and microorganisms."
+      },
+      {
+        "name": "Forensic Medicine and Toxicology",
+        "category": "Medical Sciences",
+        "description": "Forensic medicine and toxicology."
+      },
+      {
+        "name": "Homoeopathic Materia Medica",
+        "category": "BHMS",
+        "description": "Further study of homoeopathic medicines."
+      },
+      {
+        "name": "Organon of Medicine",
+        "category": "BHMS",
+        "description": "Homoeopathic philosophy."
+      },
+      {
+        "name": "Homoeopathic Repertory",
+        "category": "BHMS",
+        "description": "Repertory study and application."
+      },
+      {
+        "name": "Practice of Medicine",
+        "category": "Medical Sciences",
+        "description": "Clinical medicine."
+      },
+      {
+        "name": "Surgery",
+        "category": "Medical Sciences",
+        "description": "Principles of surgery."
+      },
+      {
+        "name": "Obstetrics and Gynaecology",
+        "category": "Medical Sciences",
+        "description": "Women's health and obstetrics."
+      },
+      {
+        "name": "Yoga",
+        "category": "Additional",
+        "description": "Yoga education where applicable."
+      }
+    ]
+  },
+  {
+    "year": "Third BHMS",
+    "subjects": [
+      {
+        "name": "Homoeopathic Materia Medica",
+        "category": "BHMS",
+        "description": "Clinical and advanced materia medica."
+      },
+      {
+        "name": "Organon of Medicine and Homoeopathic Philosophy",
+        "category": "BHMS",
+        "description": "Advanced homoeopathic philosophy."
+      },
+      {
+        "name": "Homoeopathic Repertory and Case Taking",
+        "category": "BHMS",
+        "description": "Advanced repertory and case analysis."
+      },
+      {
+        "name": "Practice of Medicine",
+        "category": "Medical Sciences",
+        "description": "Systemic medicine and clinical practice."
+      },
+      {
+        "name": "Essentials of Pharmacology",
+        "category": "Medical Sciences",
+        "description": "Principles of pharmacology."
+      },
+      {
+        "name": "Surgery",
+        "category": "Medical Sciences",
+        "description": "Clinical surgery."
+      },
+      {
+        "name": "Obstetrics and Gynaecology",
+        "category": "Medical Sciences",
+        "description": "Clinical obstetrics and gynaecology."
+      },
+      {
+        "name": "Community Medicine",
+        "category": "Medical Sciences",
+        "description": "Public health and preventive medicine."
+      },
+      {
+        "name": "Yoga",
+        "category": "Additional",
+        "description": "Yoga education where applicable."
+      }
+    ]
+  },
+  {
+    "year": "Fourth BHMS",
+    "subjects": [
+      {
+        "name": "Homoeopathic Materia Medica",
+        "category": "BHMS",
+        "description": "Advanced clinical materia medica."
+      },
+      {
+        "name": "Organon of Medicine and Homoeopathic Philosophy",
+        "category": "BHMS",
+        "description": "Clinical application of homoeopathic philosophy."
+      },
+      {
+        "name": "Homoeopathic Repertory",
+        "category": "BHMS",
+        "description": "Advanced repertory and case analysis."
+      },
+      {
+        "name": "Practice of Medicine",
+        "category": "Medical Sciences",
+        "description": "Advanced clinical medicine."
+      },
+      {
+        "name": "Community Medicine",
+        "category": "Medical Sciences",
+        "description": "Community health and preventive medicine."
+      },
+      {
+        "name": "Yoga",
+        "category": "Additional",
+        "description": "Yoga education where applicable."
+      }
+    ]
+  }
+]

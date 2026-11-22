@@ -1,0 +1,108 @@
+[
+  {
+    "title": "National Commission for Homoeopathy (NCH)",
+    "category": "Reference",
+    "type": "reference",
+    "description": "Official regulator website. Confirm the currently applicable curriculum and regulations here.",
+    "url": "https://nch.org.in/",
+    "status": "official-source-link"
+  },
+  {
+    "title": "NCH Curriculum / CBDC information",
+    "category": "Syllabus",
+    "type": "syllabus",
+    "description": "NCH curriculum and academic information landing page. Check the current documents and applicability.",
+    "url": "https://nch.org.in/cbdc",
+    "status": "official-source-link"
+  },
+  {
+    "title": "Hemchandracharya North Gujarat University",
+    "category": "Reference",
+    "type": "reference",
+    "description": "Official HNGU website. Use it to verify university notices, examination schedules and available papers.",
+    "url": "https://www.hngu.net/Index.aspx",
+    "status": "official-source-link"
+  },
+  {
+    "title": "SVHMC First BHMS CBDC papers archive",
+    "category": "Question Papers",
+    "type": "question-paper",
+    "year": "First BHMS",
+    "description": "Potential archive lead. Verify each PDF's university, subject, examination session and year before labelling it HNGU.",
+    "url": "https://www.svhmc.org/fybhms__cbdc_papers.php",
+    "status": "archive-lead-not-verified-as-HNGU"
+  },
+  {
+    "title": "SVHMC Second BHMS CBDC papers archive",
+    "category": "Question Papers",
+    "type": "question-paper",
+    "year": "Second BHMS",
+    "description": "Potential archive lead. Verify each PDF's university, subject, examination session and year before labelling it HNGU.",
+    "url": "https://www.svhmc.org/sybhms_cbdc_papers.php",
+    "status": "archive-lead-not-verified-as-HNGU"
+  },
+  {
+    "title": "HomeoGurukul student resources",
+    "category": "Notes",
+    "type": "notes",
+    "description": "External homoeopathy study resource. Check ownership and permissions before copying or hosting material.",
+    "url": "https://homeogurukul.in/students/",
+    "status": "external-reference"
+  },
+  {
+    "title": "HomeoGurukul previous-year papers",
+    "category": "Question Papers",
+    "type": "question-paper",
+    "description": "External archive lead; check university and year on every paper.",
+    "url": "https://homeogurukul.in/category/previous-year-question/",
+    "status": "archive-lead-not-verified"
+  },
+  {
+    "title": "Sardar Patel University BHMS syllabus",
+    "category": "Syllabus",
+    "type": "syllabus",
+    "description": "Another university's syllabus; do not treat as HNGU curriculum.",
+    "url": "https://www.spuvvn.edu/students_corner/syllabi/bhms/",
+    "status": "other-university-reference"
+  },
+  {
+    "title": "SPU old question papers",
+    "category": "Question Papers",
+    "type": "question-paper",
+    "description": "Another university's question paper archive; keep separate from HNGU papers.",
+    "url": "https://www.spuvvn.edu/students_corner/old-question-papers/",
+    "status": "other-university-reference"
+  },
+  {
+    "title": "CDSCO prescribing information",
+    "category": "Allopathy",
+    "type": "allopathy",
+    "description": "Indian regulator source for prescribing information and related notices.",
+    "url": "https://cdsco.gov.in/opencms/opencms/en/Notifications/Prescribing-Information/",
+    "status": "official-source-link"
+  },
+  {
+    "title": "National List of Essential Medicines 2022",
+    "category": "Allopathy",
+    "type": "allopathy",
+    "description": "Government of India essential medicines list; check for newer updates.",
+    "url": "https://qps.nhsrcindia.org/sites/default/files/2022-09/nlem2022.pdf",
+    "status": "official-reference"
+  },
+  {
+    "title": "ABDM Drug Registry",
+    "category": "Allopathy",
+    "type": "allopathy",
+    "description": "Ayushman Bharat Digital Mission drug registry.",
+    "url": "https://drugregistry.abdm.gov.in/",
+    "status": "official-source-link"
+  },
+  {
+    "title": "NHS medicines A to Z",
+    "category": "Allopathy",
+    "type": "allopathy",
+    "description": "General patient medicine information; not a substitute for Indian product labels.",
+    "url": "https://www.nhs.uk/medicines/",
+    "status": "external-reference"
+  }
+]
